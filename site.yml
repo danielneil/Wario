@@ -1,9 +1,9 @@
 ---
 
-- include: 'all.yml'
+- import_playbook: 'all.yml'
 
 # Comment this item out when specifying your own target - it's just an apache server with elk for logging visability. 
-- include: 'demo_target.yml'
+- import_playbook: 'demo_target.yml'
 
 - name: Wario - Preparing Slaves 
   hosts: slaves
