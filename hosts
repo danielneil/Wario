@@ -1,0 +1,6 @@
+[web_ui]
+web_ui ansible_host=127.0.0.1
+
+[nodes]
+127.0.0.1
+

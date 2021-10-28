@@ -1,0 +1,12 @@
+---
+- name: Wario - Preparing UI
+  hosts: web_ui
+  gather_facts: yes
+  become: true
+  vars:
+  
+   webui_auth_user: wario
+   webui_auth_pass: wario
+
+  roles:
+   - wario
