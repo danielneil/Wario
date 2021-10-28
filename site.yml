@@ -1,12 +1,32 @@
 ---
+- name: Preparing all systems
+  hosts: all
+  gather_facts: yes
+  become: true
+  vars:
+   time_zone: "UTC"
+  roles:
+   - wario_common
+
 - name: Wario - Preparing UI
   hosts: web_ui
   gather_facts: yes
   become: true
   vars:
-  
    webui_auth_user: wario
    webui_auth_pass: wario
-
+   time_zone: "utc"
   roles:
    - web_ui
+  
+- name: Wario - Preparing Slaves 
+  hosts: slaves
+  gather_facts: yes
+  become: true
+  vars: 
+   # What time shall we run the coordinated load test - ansible/cron syntax applies.
+   # This example will ensure the slaves execute the load test at 1730 ZULU. 
+   hour: "17"
+   minute: "30"
+  roles:
+   - slaves
