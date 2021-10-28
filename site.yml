@@ -1,12 +1,12 @@
 ---
 
-- include_file: 'all.yml'
-- include_file: 'command_and_control.yml'
+- include: 'all.yml'
+- include: 'command_and_control.yml'
 
 # Comment this item out when specifying your own target.
 # It's just a fancy apache server with elk install for testing purposes. 
 
-- include_file: 'demo_target.yml'
+- include: 'demo_target.yml'
 
 - name: Wario - Preparing Slaves 
   hosts: slaves
