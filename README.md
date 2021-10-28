@@ -11,14 +11,14 @@ Therefore, **do not** use this tool to do anything negligent and use absolutely 
 
 ## Setup
 
-<summary>Node - System Installation</summary>
+<summary>Slave Node - Installation</summary>
 <br>
   
 1. Prepare a vanilla Rocky Server with VirtualBox ([help](https://kifarunix.com/install-rocky-linux-8-on-virtualbox/)).
 
-2. Specific the node's ip address in the hosts file under [nodes].
+2. Specify the slave node's ip address in the hosts file under [nodes].
 
-<summary>Web UI - System Installation</summary>
+<summary>Web UI - Installation</summary>
 <br>
   
 1. Prepare a vanilla Rocky Server with VirtualBox ([help](https://kifarunix.com/install-rocky-linux-8-on-virtualbox/)).
