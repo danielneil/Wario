@@ -9,7 +9,6 @@ This tool's usage equates to what is basically a Denial of Service (DoS) attack,
 
 ## Setup
 
-<details>
 <summary>System Installation</summary>
 <br>
   
@@ -24,6 +23,3 @@ This tool's usage equates to what is basically a Denial of Service (DoS) attack,
 git clone https://github.com/danielneil/Wario.git && cd Wario && ./build.sh
 ```
 5. Navigate to http://server-ip/wario (web credentials are wario/wario).
-
-  
-</details>
