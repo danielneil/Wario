@@ -5,7 +5,7 @@ Wario is a distributed load testing mechanism intended for determining the durab
 
 ## Danger, Will Robinson!  
 
-This tool's usage equates to what is basically a Denial of Service (DoS) attack, and as result should only be used on infrastructure that YOU own or that YOU are responsible for.  
+This tool's usage equates to what is basically a Distributed Denial of Service (DDoS) attack, and as result should only be used on infrastructure that YOU own or that YOU are responsible for.  
 
 Therefore, **do not** use this tool to do anything negligent and use absolutely at your own risk.
 
