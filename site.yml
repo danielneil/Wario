@@ -3,8 +3,7 @@
 - include: 'all.yml'
 - include: 'command_and_control.yml'
 
-# Comment this item out when specifying your own target.
-# It's just a fancy apache server with elk install for testing purposes. 
+# Comment this item out when specifying your own target - it's just an apache server with elk for logging visability. 
 
 - include: 'demo_target.yml'
 
@@ -22,7 +21,7 @@
    
    # What is the intended target of the load test - the example is Apache Web server running on my home network.
    
-   target: "http://192.168.1.200"
+   target: "http://192.168.1.168"
    
   roles:
    - slaves
