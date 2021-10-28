@@ -30,10 +30,16 @@ Therefore, **do not** use this tool to do anything negligent and use absolutely 
 
 5. Open a terminal, and run:
 ```
-git clone https://github.com/danielneil/Wario.git && cd Wario && ./build.sh
+git clone https://github.com/danielneil/Wario.git && cd Wario
 ```
+
 6. Specify the designated time in site.yml to start the load test. 
 
 7. Specify the designated target URL in site.yml.
 
-8. Each respective slave writes a log file to its web root, e.g. http://slave1/log.txt
+8. From your terminal, run:
+```
+./build.sh
+```
+
+9. Each respective slave writes a log file to its web root, e.g. http://slave1/log.txt
