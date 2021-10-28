@@ -31,4 +31,4 @@ git clone https://github.com/danielneil/Wario.git && cd Wario && ./build.sh
   
 1. Prepare a vanilla Rocky Server with VirtualBox ([help](https://kifarunix.com/install-rocky-linux-8-on-virtualbox/)).
 
-2. Specific the node's ip address in the hosts file under '[nodes]',
+2. Specific the node's ip address in the hosts file under [nodes].
