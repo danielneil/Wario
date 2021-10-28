@@ -1,0 +1,10 @@
+---
+
+- name: Preparing all systems
+  hosts: all
+  gather_facts: yes
+  become: true
+  vars:
+   time_zone: "UTC"
+  roles:
+   - wario_common
