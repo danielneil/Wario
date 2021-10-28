@@ -29,6 +29,8 @@ Therefore, **do not** use this tool to do anything negligent and use absolutely 
 ```
 git clone https://github.com/danielneil/Wario.git && cd Wario && ./build.sh
 ```
-5. Specify the designed time in site.yml to start the load test. 
+5. Specify the designated time in site.yml to start the load test. 
 
-6. Navigate to http://server-ip/wario (web credentials are wario/wario).
+6. Specify the designated target in site.yml.
+
+7. Navigate to http://server-ip/wario (web credentials are wario/wario).
