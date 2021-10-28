@@ -1,5 +1,11 @@
-[web_ui]
-web_ui ansible_host=127.0.0.1
-
-[nodes]
+[command_and_control]
 127.0.0.1
+
+[slaves]
+192.168.1.116
+192.168.1.109
+192.168.1.144
+
+# Comment this out when testing something other than the demo.
+[target]
+192.168.1.168
