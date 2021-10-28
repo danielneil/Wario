@@ -1,3 +1,7 @@
+#!/usr/bin/bash
+
+/usr/bin/ab -n {{ requests }} -c {{ concurrency }} {{ target }}
+
 # [root@localhost templates]# which ab
 # /usr/bin/ab
 # [root@localhost templates]# ab
