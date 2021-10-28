@@ -3,9 +3,11 @@
 - include_file: 'all.yml'
 - include_file: 'command_and_control.yml'
 
-########################################################
-# Configurable items as per below.
-  
+# Comment this item out when specifying your own target.
+# It's just a fancy apache server with elk install for testing purposes. 
+
+- include_file: 'demo_target.yml'
+
 - name: Wario - Preparing Slaves 
   hosts: slaves
   gather_facts: yes
