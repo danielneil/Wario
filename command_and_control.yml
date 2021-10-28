@@ -7,6 +7,5 @@
   vars:
    webui_auth_user: wario
    webui_auth_pass: wario
-   time_zone: "utc"
   roles:
-   - web_ui
+   - command_and_control
