@@ -1,15 +1,11 @@
 ---
-- name: Preparing all systems
-  hosts: all
-  gather_facts: yes
-  become: true
-  vars:
-   time_zone: "UTC"
-  roles:
-   - wario_common
 
-- name: Wario - Preparing UI
-  hosts: web_ui
+- include_file: 'all.yml'
+- include_file: 'command_and_control.yml'
+
+
+- name: Wario - Preparing Command and Control Server
+  hosts: command_and_control
   gather_facts: yes
   become: true
   vars:
