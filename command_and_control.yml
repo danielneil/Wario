@@ -1,1 +1,12 @@
+---
 
+- name: Wario - Preparing Command and Control Server
+  hosts: command_and_control
+  gather_facts: yes
+  become: true
+  vars:
+   webui_auth_user: wario
+   webui_auth_pass: wario
+   time_zone: "utc"
+  roles:
+   - web_ui
