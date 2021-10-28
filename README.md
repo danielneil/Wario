@@ -11,7 +11,7 @@ Therefore, **do not** use this tool to do anything negligent and use absolutely 
 
 ## Setup
 
-### Slave Node - Installation
+### Slave - Installation
   
 1. Prepare a vanilla Rocky Server with VirtualBox ([help](https://kifarunix.com/install-rocky-linux-8-on-virtualbox/)).
 
