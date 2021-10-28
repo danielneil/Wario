@@ -1,0 +1,7 @@
+---
+- name: Preparing demo target system.
+  hosts: target
+  gather_facts: yes
+  become: true
+  roles:
+   - target
