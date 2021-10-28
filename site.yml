@@ -20,8 +20,16 @@
    minute: "30"
    
    # What is the intended target of the load test - the example is Apache Web server running on my home network.
+ 
+   target: "http://192.168.1.168/"
+
+   # Number of requests to perform
    
-   target: "http://192.168.1.168"
+   requests: 10000 
+   
+   # Number of multiple requests to make at a time
+   
+   concurrency: 100 
    
   roles:
    - slaves
