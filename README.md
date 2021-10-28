@@ -5,13 +5,20 @@ Wario is a distributed load testing mechanism intended for determining the durab
 
 ## Danger, Will Robinson!  
 
-This tool's usage equates to what is basically a Denial of Service (DoS) attack, and as result should only be used on infrastructure that YOU own or that YOU are responsible for.  
+This tool's usage equates to what is basically a Distributed Denial of Service (DDoS) attack, and as result should only be used on infrastructure that YOU own or that YOU are responsible for.  
 
 Therefore, **do not** use this tool to do anything negligent and use absolutely at your own risk.
 
 ## Setup
 
-<summary>System Installation</summary>
+<summary>Slave Node - Installation</summary>
+<br>
+  
+1. Prepare a vanilla Rocky Server with VirtualBox ([help](https://kifarunix.com/install-rocky-linux-8-on-virtualbox/)).
+
+2. Specify the slave node's ip address in the hosts file under [nodes].
+
+<summary>Web UI - Installation</summary>
 <br>
   
 1. Prepare a vanilla Rocky Server with VirtualBox ([help](https://kifarunix.com/install-rocky-linux-8-on-virtualbox/)).
