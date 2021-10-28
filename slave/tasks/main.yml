@@ -1,2 +1,7 @@
 ---
 # tasks file for node
+
+- name: Installing ab on slaves.
+  package:
+   name: httpd-tools
+   state: latest
