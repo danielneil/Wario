@@ -17,7 +17,7 @@ Therefore, **do not** use this tool to do anything negligent and use absolutely 
 
 2. Specify the slave node's ip address in the hosts file under [nodes].
 
-### Web UI - Installation 
+### Command and Control - Installation 
   
 1. Prepare a vanilla Rocky Server with VirtualBox ([help](https://kifarunix.com/install-rocky-linux-8-on-virtualbox/)).
 
@@ -33,4 +33,4 @@ git clone https://github.com/danielneil/Wario.git && cd Wario && ./build.sh
 
 6. Specify the designated target in site.yml.
 
-7. Navigate to http://server-ip/wario (web credentials are wario/wario).
+7. Each respective slave writes a log file to its web root, e.g. http://slave1/log.txt
