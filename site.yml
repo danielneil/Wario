@@ -9,4 +9,4 @@
    webui_auth_pass: wario
 
   roles:
-   - wario
+   - web_ui
