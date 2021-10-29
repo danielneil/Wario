@@ -11,7 +11,7 @@
   vars: 
   
    # What time shall we run the coordinated load test - ansible/cron syntax applies.
-   # This example will ensure the slaves execute the load test at 1730 ZULU. 
+   # This example will ensure the slaves execute the load test at 1730. 
    
    hour: "11"
    minute: "40"
