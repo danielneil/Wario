@@ -1,5 +1,5 @@
 ---
-# Comment this item out when specifying your own target - it's just an apache server with elk for logging visability. 
+# Comment this item out when specifying your own target - it's just an apache server with ELK for logging visability. 
 - import_playbook: 'demo_target.yml'
 
 - name: Wario - Preparing Slaves 
