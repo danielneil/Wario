@@ -1,9 +1,8 @@
-<p align="center">
-  <img src="https://github.com/danielneil/Wario/blob/main/demo_target/files/wario.jpg?raw=true" width="225" height="170">
-</p>
-
-
 # Wario
+
+<p align="center">
+  <img src="https://github.com/danielneil/Wario/blob/main/demo_target/files/wario.jpg?raw=true" width="235" height="180">
+</p>
 
 Wario is a distributed load testing mechanism intended for determining the durability of your web server against large amounts of traffic.  
 
