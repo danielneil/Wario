@@ -28,6 +28,7 @@
   template:
    src: ab.sh
    dest: /root/ab.sh
+   mode: 0755
    
 - cron:
    name: "Wario load test"
