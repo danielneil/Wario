@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-/usr/bin/ab -n {{ requests }} -c {{ concurrency }} {{ target }}
+/usr/bin/ab -w -n {{ requests }} -c {{ concurrency }} {{ target }} &> /var/www/html/log.html
 
 # [root@localhost templates]# which ab
 # /usr/bin/ab
