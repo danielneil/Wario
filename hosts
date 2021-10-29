@@ -3,6 +3,6 @@
 192.168.1.109
 192.168.1.144
 
-# Comment this out when testing something other than the demo.
+# Comment this whole section out when testing something other than the demo.
 [target]
 192.168.1.168
