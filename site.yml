@@ -9,8 +9,9 @@
   vars: 
   
    # What time shall we run the coordinated load test - ansible/cron syntax applies.
-   # This example will ensure the slaves execute the load test at 1730. 
+   # This example will ensure the slaves execute the load test at 1730 in the Australian/NSW timezone.
    
+   timezone: "Australia/NSW"
    hour: "11"
    minute: "50"
    month: "*"
