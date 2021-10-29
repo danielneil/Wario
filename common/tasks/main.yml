@@ -1,2 +1,5 @@
 ---
 # tasks file for common
+- name: set timezone to Australia/NSW
+  timezone:
+    name: Australia/NSW
