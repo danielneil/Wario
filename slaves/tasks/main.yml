@@ -1,6 +1,10 @@
 ---
 # tasks file for node
 
+- name: set timezone to "{{ timezone }}"
+  timezone:
+    name: "{{ timezone }}"
+
 - name: Installing ab on slaves.
   package:
    name: httpd-tools
