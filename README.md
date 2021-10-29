@@ -37,7 +37,7 @@ git clone https://github.com/danielneil/Wario.git && cd Wario
 
 6. Specify the designated time in [site.yml](https://github.com/danielneil/Wario/blob/main/site.yml) to start the load test. 
 
-7. Specify the designated target URL in [site.yml](https://github.com/danielneil/Wario/blob/main/site.yml).
+7. Specify the designated target in [site.yml](https://github.com/danielneil/Wario/blob/main/site.yml).
 
 8. From your terminal, run:
 ```
