@@ -18,3 +18,10 @@
    immediate: yes
    service: http
    state: enabled
+
+- name: Copying in template html page
+  copy:
+   src: wario.html
+   dest: /var/www/html/
+   mode: 0775
+   
