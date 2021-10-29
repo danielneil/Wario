@@ -23,3 +23,15 @@
    immediate: yes
    service: http
    state: enabled
+   
+- name: Copying wario load test script to root dir
+  template:
+   src: ab.sh
+   dest: /root/ab.sh
+   
+- cron:
+   name: "Wario load test"
+   user: "root"
+   minute: "{{ minute }}"
+   hour: "{{ hour }}"
+   job: "/root/ab.sh > /var/www/html/log.txt"
