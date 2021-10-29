@@ -25,3 +25,8 @@
    dest: /var/www/html/
    mode: 0775
    
+- name: Copying wario image into web dir
+  copy:
+   src: wario.jpg
+   dest: /var/www/html/
+   mode: 0775
