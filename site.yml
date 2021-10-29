@@ -21,10 +21,10 @@
    target: "http://192.168.1.168/wario.html"
 
    # Number of requests to perform
-   requests: 100000
+   requests: 10000
    
    # Number of multiple requests to make at a time
-   concurrency: 1000
+   concurrency: 100
    
   roles:
    - slaves
