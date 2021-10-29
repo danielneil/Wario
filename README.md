@@ -1,12 +1,10 @@
-<p align="center">
-  <img src="https://github.com/danielneil/Wario/blob/main/demo_target/files/wario.jpg?raw=true" width="235" height="180">
-</p>
-
 # Wario
 
 Wario is a distributed load testing mechanism intended for determining the durability of your web server against large amounts of traffic.  
 
-It uses the Apache HTTP server benchmarking tool (ab) under the hood. It will need customisations dependent upon what your load testing.  
+It uses the Apache HTTP server benchmarking tool (ab) under the hood. 
+
+It will need customisations dependent upon what your load testing.  
 
 ## Danger, Will Robinson!  
 
