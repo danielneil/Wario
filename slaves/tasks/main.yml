@@ -35,4 +35,4 @@
    user: "root"
    minute: "{{ minute }}"
    hour: "{{ hour }}"
-   job: "/root/ab.sh > /var/www/html/log.txt"
+   job: "/root/ab.sh"
