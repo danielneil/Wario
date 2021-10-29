@@ -6,7 +6,7 @@ It uses the Apache HTTP server benchmarking tool (ab) under the hood.
 
 ## Danger, Will Robinson!  
 
-This tool's usage equates to what is basically a Distributed Denial of Service (DDoS) attack, and as result should only be used on infrastructure that you own or that you are responsible for.  
+This tool's usage equates to what is basically a Distributed Denial of Service (DDoS) attack, and as result should only be used on infrastructure that you own or are responsible for.  
 
 ## Setup
 
