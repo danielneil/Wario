@@ -1,6 +1,4 @@
 ---
-- import_playbook: 'all.yml'
-
 # Comment this item out when specifying your own target - it's just an apache server with elk for logging visability. 
 - import_playbook: 'demo_target.yml'
 
