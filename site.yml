@@ -18,7 +18,7 @@
    minute: "30"
    
    # What is the intended target of the load test - the example is Apache Web server running on my home network.
-   target: "http://192.168.1.168/"
+   target: "http://192.168.1.168/wario.html"
 
    # Number of requests to perform
    requests: 10000 
