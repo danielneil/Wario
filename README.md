@@ -16,7 +16,7 @@ This tool's usage equates to what is basically a Distributed Denial of Service (
   
 1. Prepare a vanilla Rocky Server with VirtualBox ([help](https://kifarunix.com/install-rocky-linux-8-on-virtualbox/)).
 
-2. Specify the slave slaves's ip address in the hosts file under [slaves].
+2. Specify the slave slaves's ip address in the hosts file under [slaves](https://github.com/danielneil/Wario/blob/main/hosts).
 
 3. Arguments to ab can be customised [here](https://github.com/danielneil/Wario/blob/main/slaves/templates/ab.sh).
 
@@ -35,9 +35,9 @@ This tool's usage equates to what is basically a Distributed Denial of Service (
 git clone https://github.com/danielneil/Wario.git && cd Wario
 ```
 
-6. Specify the designated time in site.yml to start the load test. 
+6. Specify the designated time in [site.yml](https://github.com/danielneil/Wario/blob/main/site.yml) to start the load test. 
 
-7. Specify the designated target URL in site.yml.
+7. Specify the designated target URL in [site.yml](https://github.com/danielneil/Wario/blob/main/site.yml).
 
 8. From your terminal, run:
 ```
