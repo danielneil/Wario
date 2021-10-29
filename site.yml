@@ -14,8 +14,8 @@
    # What time shall we run the coordinated load test - ansible/cron syntax applies.
    # This example will ensure the slaves execute the load test at 1730 ZULU. 
    
-   hour: "17"
-   minute: "30"
+   hour: "11"
+   minute: "20"
    
    # What is the intended target of the load test - the example is Apache Web server running on my home network.
    target: "http://192.168.1.168/wario.html"
