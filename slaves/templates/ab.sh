@@ -6,8 +6,6 @@
 {{ target }} \
 &> /var/www/html/log.html
 
-# [root@localhost templates]# which ab
-# /usr/bin/ab
 # [root@localhost templates]# ab
 # ab: wrong number of arguments
 # Usage: ab [options] [http[s]://]hostname[:port]/path
