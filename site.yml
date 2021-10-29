@@ -12,8 +12,8 @@
    # This example will ensure the slaves execute the load test at 1730 in the Australian/NSW timezone.
    
    timezone: "Australia/NSW"
-   hour: "11"
-   minute: "50"
+   hour: "17"
+   minute: "30"
    month: "*"
    weekday: "*"
    
