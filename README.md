@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/danielneil/Wario/blob/main/demo_target/files/wario.jpg?raw=true">
+  <img src="https://github.com/danielneil/Wario/blob/main/demo_target/files/wario.jpg?raw=true" width="250" height="300">
 </p>
 
 
