@@ -16,6 +16,8 @@ This tool's usage equates to what is basically a Distributed Denial of Service (
 
 2. Specify the slave slaves's ip address in the hosts file under [slaves].
 
+3. Arguments to ab can be customised [here](https://github.com/danielneil/Wario/blob/main/slaves/templates/ab.sh).
+
 ### Command and Control - Installation 
   
 1. Prepare a vanilla Rocky Server with VirtualBox ([help](https://kifarunix.com/install-rocky-linux-8-on-virtualbox/)).
