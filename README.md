@@ -24,7 +24,7 @@ Therefore, **do not** use this tool to do anything negligent and use absolutely 
 
 2. Install ansible ([help](https://www.how2shout.com/linux/how-to-install-ansible-on-rocky-linux-8-or-almalinux/)).
 
-3. Connect your ansible instance to all respective slave nodes.
+3. Connect your ansible instance to all respective slaves.
 
 4. Install Git ([help](https://tastethelinux.com/2021/08/06/how-to-install-git-on-rocky-linux-8-ec2-aws/)).
 
@@ -42,4 +42,4 @@ git clone https://github.com/danielneil/Wario.git && cd Wario
 ./build.sh
 ```
 
-9. Each respective slave writes a log file to its web root, e.g. http://slave1/log.txt
+9. Each respective slave writes a log file to its web root, e.g. http://slave1/log.html
