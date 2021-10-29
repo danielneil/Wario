@@ -27,7 +27,7 @@
 - name: Copying wario load test script to root dir
   template:
    src: ab.sh
-   dest: /root/ab.sh
+   dest: /tmp/ab.sh
    mode: 0755
    
 - cron:
@@ -35,4 +35,6 @@
    user: "root"
    minute: "{{ minute }}"
    hour: "{{ hour }}"
-   job: "/root/ab.sh"
+   month: "{{ month }}"
+   weekday: "{{ weekday }}"
+   job: "/tmp/ab.sh"
