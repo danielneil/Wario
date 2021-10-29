@@ -5,3 +5,21 @@
   package:
    name: httpd-tools
    state: latest
+
+- name: Install httpd
+  package:
+   name: httpd.x86_64
+   state: latest
+   
+- name: Start httpd.x86_64
+  service:
+   name: httpd
+   state: started
+   enabled: true
+   
+- name: FirewallD rules
+  firewalld:
+   permanent: yes
+   immediate: yes
+   service: http
+   state: enabled
