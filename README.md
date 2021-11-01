@@ -1,14 +1,14 @@
 # Wario
 
-Wario is a distributed load testing mechanism intended for determining the durability of your web server against large amounts of traffic.  
+Wario is a distributed load testing mechanism intended for determining the durability of your web server against large amounts of traffic.
 
-It uses the Apache HTTP server benchmarking tool (ab) under the hood. 
+It uses the Apache HTTP server benchmarking tool (ab) under the hood.
 
 It will need customisations dependent upon what your load testing.  
 
 ## Danger, Will Robinson!  
 
-This tool's usage equates to what is basically a Distributed Denial of Service (DDoS) attack, and as result should only be used on infrastructure that you own or are responsible for.  
+This tool's usage could equate to what is essentially a Distributed Denial of Service (DDoS) attack, and as result should only be used on infrastructure that you own or are responsible for.  
 
 ## Setup
 
