@@ -18,8 +18,6 @@ This tool's usage could equate to what is essentially a Distributed Denial of Se
 
 2. Specify the slave slaves's ip address in the hosts file under [slaves](https://github.com/danielneil/Wario/blob/main/hosts).
 
-3. Arguments to ab can be customised [here](https://github.com/danielneil/Wario/blob/main/slaves/templates/ab.sh).
-
 ### Command and Control - Installation 
   
 1. Prepare a vanilla Rocky Server with VirtualBox ([help](https://kifarunix.com/install-rocky-linux-8-on-virtualbox/)).
@@ -39,9 +37,11 @@ git clone https://github.com/danielneil/Wario.git && cd Wario
 
 7. Specify the designated target in [site.yml](https://github.com/danielneil/Wario/blob/main/site.yml).
 
-8. From your terminal, run:
+8. Arguments to ab test can be customised [here](https://github.com/danielneil/Wario/blob/main/slaves/templates/ab.sh).
+
+9. From your terminal, run:
 ```
 ./build.sh
 ```
 
-9. Each respective slave writes a log file to its web root, e.g. http://slave1/log.html
+10. Each respective slave writes a log file to its web root, e.g. http://slave1/log.html
